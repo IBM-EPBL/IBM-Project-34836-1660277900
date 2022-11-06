@@ -8,16 +8,15 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `comparison_college`
+-- Database: `cse`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `comps_colleges`
 --
 
-CREATE TABLE `comparison_colleges` (
+CREATE TABLE `cse` (
   `ccid` int(20) NOT NULL,
   `ccname` varchar(200) NOT NULL,
   `hsc` float NOT NULL,
@@ -25,10 +24,10 @@ CREATE TABLE `comparison_colleges` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `comps_colleges`
+-- Dumping data for table `cse`
 --
 
-INSERT INTO `comparison_colleges` (`ccid`, `ccname`, `hsc`, `jee`) VALUES
+INSERT INTO `cse` (`ccid`, `ccname`, `hsc`, `jee`) VALUES
 (1, 'testcollege', 30, 50),
 (2, 'comps test 1', 99, 99),
 (3, 'comps test 2', 20, 20),
@@ -39,9 +38,9 @@ INSERT INTO `comparison_colleges` (`ccid`, `ccname`, `hsc`, `jee`) VALUES
 --
 
 --
--- Indexes for table `comparison_colleges`
+-- Indexes for table `cse`
 --
-ALTER TABLE `comparison_colleges`
+ALTER TABLE `cse`
   ADD PRIMARY KEY (`ccid`);
 
 --
@@ -49,9 +48,9 @@ ALTER TABLE `comparison_colleges`
 --
 
 --
--- AUTO_INCREMENT for table `comparison_colleges`
+-- AUTO_INCREMENT for table `cse`
 --
-ALTER TABLE `comps_colleges`
+ALTER TABLE `cse`
   MODIFY `ccid` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
