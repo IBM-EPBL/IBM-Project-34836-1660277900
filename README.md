@@ -1,4 +1,4 @@
-![IBM_logo svg](https://user-images.githubusercontent.com/64061919/202838648-bdb8461e-9534-45c0-9d4e-f232dc3580e4.png)
+![logo_dont_shadow](https://user-images.githubusercontent.com/64061919/202838849-668ba470-3745-475c-a3c0-5a9d2c6c883b.svg)
 
 # IBM-Project-34836-1660277900 #
 # University Admit Eligibility Predictor #
